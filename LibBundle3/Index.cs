@@ -646,7 +646,7 @@ public class Index : IDisposable {
 	/// <summary>
 	/// Path to create bundle (Must end with slash)
 	/// </summary>
-	private const string CUSTOM_BUNDLE_BASE_PATH = "LibGGPK3/";
+	private const string CUSTOM_BUNDLE_BASE_PATH = "Content/";
 	/// <summary>
 	/// Get an available bundle with size &lt; <see cref="MaxBundleSize"/>) to write under "Bundles2" with name start with <see cref="CUSTOM_BUNDLE_BASE_PATH"/>.
 	/// Or create one if not found.
